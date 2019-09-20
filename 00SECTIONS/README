@@ -1,0 +1,48 @@
+README
+Created Fri May 31 10:29:56 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+abbreviations.tex
+  List of Abbreviations
+
+body.tex
+  Main body
+
+comments.tex
+  Comments
+
+contents.tex
+  Table of contents
+
+endnotes.tex
+  Endnotes
+
+examples.tex
+  Examples
+
+figures.tex  
+  List of figures
+
+footnotes.tex
+  Footnotes
+
+hyperlinks.tex
+  Hyperlinks
+
+introduction.tex
+  Introduction
+
+questions.tex
+  Questions
+
+tables.tex
+  List of tables
+
+table-examples.tex
+  Table exmaples
+
+titlepage.tex
+  Title page
