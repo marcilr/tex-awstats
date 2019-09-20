@@ -70,7 +70,7 @@ make.bat
   Build PDF from LaTeX source
 
 Makefile
-  Standard GNU makefile to build LaTeX document.
+  Standard GNU makefile to build LaTeX document
 
 TODO
   Items TODO
