@@ -112,3 +112,77 @@ FILENAME&Relative path to file in direcory\\[1.5ex]
 \end{center}
 \end{table}
 
+%% ================== Installed Daemons ===================
+%% ================== Installed Daemons ===================
+%% The htb attribute attempts to inline the table or figure
+%% where you put it in the document
+%%
+%% NOTE: tabular* takes table width argument
+%%       Use of 'p' for left aligned column.
+%%       Use of 'cp' to center column.
+%%       The @{} works to remove an unwanted space.
+%%
+%% FIXME: The ELM adn Elluminate Server columns are not centering.
+%%        Center with fixed width in LaTeX?
+%%
+%% Links
+%% =====
+%% Getting to Grips with Latex - Tables
+%% by Andrew Roberts
+%% http://www.andy-roberts.net/misc/latex/latextutorial4.html
+%%
+%%
+%% Configure caption on left using caption package.
+%% The key to this working is placing the \captionsetup
+%% just before the table or figure for which to manipulate
+%% the package.
+%%
+%% Other potential potential options include:
+%%   labelsep=newline
+%%   labelfont=bf
+%%
+%% Links
+%% =====
+%% Raggedright and caption package
+%% http://tex.stackexchange.com/questions/120411/raggedright-and-caption-package
+%%
+\captionsetup{%
+    justification=raggedright,
+    singlelinecheck=false
+}
+
+\begin{table}[htb]
+%%\begin{center}
+\begin{tabular*}{.80\textwidth}{@{\extracolsep{\fill}}@{}p{.25\textwidth}@{}c@{}c@{}c@{}c}
+\hline
+\hline\\[-2.5ex]
+Virtual Machine&Apache&ELM&LM&Elluminate Server\\
+\hline
+\hline\\[-1.5ex]   %% Trick to add whitespace after horizontal line
+\cmd{dcs-elive-prod01}&\,&x&x&x\\
+\cmd{uaa-elive-dev01}&x&x&x&\\
+\cmd{uaa-elive-server01}&\,&\,&\,&x\\[1.5ex]
+\cmd{uaa-elive-prod01}&\,&x&x&x\\
+\cmd{uaf-elive-prod01}&\,&x&x&x\\
+\cmd{uas-elive-prod01}&\,&x&x&x\\
+\hline
+\end{tabular*}
+\caption {Daemons}
+\label{table:daemons-index}
+%%\end{center}
+\end{table}
+
+
+\begin{table}[htb]
+\begin{tabular}{|p{.16\textwidth}|p{.17\textwidth}|p{.62\textwidth}|}\hline 
+Column Name&Type&Description\\ 
+\hline
+MTR&VARCHAR2(9)&Meridian, Township, Range, example: \emph{C026S054E}\\
+QMQ&VARCHAR2(3)&Quarter Million Quadrangle code,\\
+&&\hspace{10pt}example: \emph{DIL} (Dillingham quadrangle)\\
+\hline
+\end{tabular}
+\caption {\cmd{XREF\_MTR\_QMQ} Table}
+\label{table:xref_mtr_qmq}
+\end{table}
+
