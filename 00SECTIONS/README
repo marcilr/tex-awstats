@@ -59,6 +59,10 @@ questions.tex
 run-reports.tex
   III. Run Reports
 
+sections.tex
+  The main body of the latex document can input sections to
+  nicely modularize the document.
+
 tables.tex
   List of tables
 
