@@ -12,6 +12,9 @@ boxes.tex
   Boxes
   Very nice rectangular boxes by Sean Weems, Spring 2003
 
+figures-and-tables.tex
+  Figures and Tables in a LATEX Document
+
 footnotes.tex
   Deprecated in favor of endnotes.tex
 
