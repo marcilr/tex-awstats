@@ -67,3 +67,6 @@ table-examples.tex
 
 titlepage.tex
   Title page
+
+verbatim.tex
+  Verbatim text
