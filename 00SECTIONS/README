@@ -70,3 +70,6 @@ titlepage.tex
 
 verbatim.tex
   Verbatim text
+
+version.tex
+  Version number
