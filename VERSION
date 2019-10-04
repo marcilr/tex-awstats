@@ -5,9 +5,20 @@
 #
 # AWStats document version
 #
+# To use from cli:
+#   $ . ./VERSION
+#
+# Or from Makefile:
+#   include VERSION
+#
+# Links
+# =====
+# How to source a script in a Makefile?
+# https://stackoverflow.com/questions/7507810/how-to-source-a-script-in-a-makefile
+#
 
 #
 # Fri Oct  4 11:55:20 AKDT 2019
 # o Latest 0.0.1 version (first versioned version
 #
-VERSION=0.0.1
+export VERSION=0.0.1
