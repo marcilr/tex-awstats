@@ -66,6 +66,9 @@ sections.tex
   The main body of the latex document can input sections to
   nicely modularize the document.
 
+scripts.tex
+  Scripts
+
 tables.tex
   List of tables
 
