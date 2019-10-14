@@ -4,19 +4,43 @@
 %% Created Fri Sep 20 14:20:08 AKDT 2019
 %% Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 %%
-%% Process Logs
-%%
 
 %% ========================== Process Logs ==============================
 %% ========================== Process Logs ==============================
 \newpage
 \section{Process Logs}
-Foo, bar, baz, quux, ...
-%%''There are 3 steps to begin using AWStats:\footnote{AWStats Installation, Configuration and Reporting\\
-%%\href{https://awstats.sourceforge.io/docs/awstats_setup.html}{https://awstats.sourceforge.io}
-%%}
-%%\begin{itemize}
-%%  \item I. Setup: Installation and configuration
-%%  \item II. Process logs: Building/updating statistics database
-%%  \item III. Run Reports: Building and reading reports
-%%\end{itemize}
+The awstats logs are processed to update the awstats databases
+under \textbf{DirData}:\\
+\indent\texttt{DirData="/net/dnr-atwfs1/vol/vol1/weblogs/reports/data"}\\
+\\
+The 2018 logs to be processed are available on the network path:\\
+\indent\texttt{/net/dnr-atwfs1/vol/vol1/weblogs/YYYY/MM/DD}\\
+\\
+The internet access are within log files like:\\
+\indent\texttt{/net/dnr-atwfs1/vol/vol1/weblogs/2018/01/01/nginx/access\_log}\\
+\\
+The log files need to be processed on a monthly basis for all of
+2018. This can be broken down by month to:\\
+\\
+\noindent\begin{tabular}{ l l }
+\bf{Month}    & \bf{Days}\\
+January  & 1-31\\
+February & 1-28\\
+March    & 1-31\\
+April    & 1-30\\
+May      & 1-31\\
+June     & 1-30\\
+July     & 1-31\\
+August   & 1-31\\
+September & 1-30\\
+October   & 1-31\\
+November   & 1-30\\
+December   & 1-31\\
+\end{tabular}
+
+%%\noindent\begin{tabular}{ l l l }
+%% cell1 & cell2 & cell3 \\ 
+%% cell4 & cell5 & cell6 \\  
+%% cell7 & cell8 & cell9    
+%%\end{tabular}
+
