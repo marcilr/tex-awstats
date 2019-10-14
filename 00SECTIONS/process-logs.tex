@@ -20,17 +20,30 @@ The internet access are within log files like:\\
 \indent\texttt{/net/dnr-atwfs1/vol/vol1/weblogs/2018/01/01/nginx/access\_log}\\
 \\
 The log files need to be processed on a monthly basis for all of
-2018. This can be broken down by month to:\\
+2018. This can be broken down by month to:
 \\
-\noindent\begin{tabular}{ l l l l l}
-\bf{Month} & \bf{Days} & \hspace{.75cm} & \bf{Month} & \bf{Days} \\
-January    & 1-31      & \hspace{.75cm} & July       & 1-31 \\
-February   & 1-28      & \hspace{.75cm} & August     & 1-31 \\
-March      & 1-31      & \hspace{.75cm} & September  & 1-30 \\
-April      & 1-30      & \hspace{.75cm} & October    & 1-31 \\
-May        & 1-31      & \hspace{.75cm} & November   & 1-30 \\
-June       & 1-30      & \hspace{.75cm} & December   & 1-31 \\
+%%
+%% You can add space by inserting @{\hskip whatever} between
+%% the column specifiers, as in
+%%
+%% \begin{tabular}{l@{\hskip 1in}c@{\hskip 0.5in}c}
+%%   One&Two& Three\\
+%%   Four& Five& Six
+%% \end{tabular}
+%%
+%% Adding space between columns in a table
+%% https://tex.stackexchange.com/questions/16519/adding-space-between-columns-in-a-table
+\begin{center}
+\begin{tabular}{l@{\hskip0.5in}l@{\hskip1.5in}l@{\hskip0.5in}l}
+\bf{Month} & \bf{Days} & \bf{Month} & \bf{Days} \\
+January    & 1-31      & July       & 1-31 \\
+February   & 1-28      & August     & 1-31 \\
+March      & 1-31      & September  & 1-30 \\
+April      & 1-30      & October    & 1-31 \\
+May        & 1-31      & November   & 1-30 \\
+June       & 1-30      & December   & 1-31 \\
 \end{tabular}
+\end{center}
 
 %%\noindent\begin{tabular}{ l l l }
 %% cell1 & cell2 & cell3 \\ 
